@@ -15,7 +15,7 @@ func main() {
     d := 10.0
     fmt.Printf("%T\n", d) // int
     d = 10 + 11.1
-    var e float64 = 10 // ok
+    var e float64 = 20 // ok
     fmt.Printf("%T\n", e) // float64
     // var f float64 = c // cannot use c (type int) as type float64 in assignment
     // fmt.Printf("%T\n", f)
