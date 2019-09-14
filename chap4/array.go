@@ -4,11 +4,16 @@ import "fmt"
 
 func main() {
     arr := [3]int{1, 2, 3}
+    var b [3] int
+    b = arr
+    b[1] = 20
+    fmt.Println(b)
     fmt.Println(arr)
-    test_param(arr)
-    fmt.Println(arr)
-    zero(&arr)
-    fmt.Println(arr)
+    // fmt.Println(arr)
+    // test_param(arr)
+    // fmt.Println(arr)
+    // zero(&arr)
+    // fmt.Println(arr)
 }
 
 
